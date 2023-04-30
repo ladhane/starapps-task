@@ -1,1 +1,37 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>StarApps</title>
+</head>
+<body>
+    <div class="container Blue">
+        <div class="img-container">
+        <img id="umbrella" src="/Umbrella/images/Blue umbrella.png" alt="umbrella"/>
+        <img id="preview-selected-image" />
+        </div>
+        <div class="text-container">
+            <h1> Custom umbrella</h1>
+            <div class="color-container">
+                <button class="button pink" id="pink" value="Pink" onClick="changeColor(this.value)"></button>
+                <button class="button blue" id="blue" value="Blue" onClick="changeColor(this.value)"></button>
+                <button class="button yello" id="yello" value="Yello" onClick="changeColor(this.value)"></button>
+            </div>
+            <h4>Customise your umbrella</h2>
+            <p> Upload a logo for a instant preview</p>
+            <p> .png and .jpg files only. Max file size is 5 MB</p>
+            <div id="upload-container" class="blue">
+                <input type="file" id="file-input" accept="image/x-png,image/x.jpg" max-size="5000" />
+                    <label for="file-input">
+                        <img id="upload-img" src="/Umbrella/images/upload_icon.svg"/>
+                        UPLOAD LOGO
+                    </label>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

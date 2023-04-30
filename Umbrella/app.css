@@ -1,0 +1,95 @@
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8%;
+}
+
+.img-container{
+    padding:5%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.text-container{
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+#umbrella{
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#preview-selected-image{
+    position: absolute;
+    top: 450px;
+    left: 275px;
+    width: 75px;
+    height: 30px;
+  }
+
+.button{
+    padding: 4%;
+    border-radius: 50%;
+    border: 4px solid #93e6f3;
+}
+
+.pink{
+    background-color: #c210e6;
+}
+
+.blue{
+    background-color: #2fc6de;
+}
+
+.yello{
+    background-color: #ede732;
+}
+
+#upload-container{
+    display: inline-flex;
+    border: 1px solid black;
+    padding: 15px;
+}
+#upload-img{
+    float: left;
+}
+
+label{
+    width: 350px;
+    text-align: center;
+}
+
+.Pink{
+    background-color: #d7a4e1;
+}
+
+.Blue{
+    background-color: #dcf9fa;
+}
+
+.Yello{
+    background-color: #ecf1d4;
+}
+
+input[type="file"] {
+    display: none;
+  }
+
+.loader{
+   width: 250px;
+}
+.rotate {
+    width: 20px;
+    transform: rotate(360deg);
+	transition: transform 3s ease-in;
+}
