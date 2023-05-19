@@ -7,4 +7,4 @@ Folder named Umbrealla contains the Umbrella seller task.
   
 Folder named Airplanes containes the second task. 
   1. In the index.js file inside this folder line 21 const arr=[...] is the input array. 
-  2. To run this file use `node index.js` command
+  2. To run this file use `node index.js` command.
